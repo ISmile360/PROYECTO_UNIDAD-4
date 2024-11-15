@@ -1,0 +1,109 @@
+/* Estilo general */
+body {
+    background-color: #1f1f1f;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #111;
+    border-bottom: 2px solid #444;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-size: 36px;
+    color: #ff6f61;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px rgba(255, 111, 97, 0.7);
+}
+
+.navbar-brand:hover {
+    color: #ff4d3d;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 30 30'><path d='M4 7h22M4 15h22M4 23h22'/></svg>");
+}
+
+/* Estilo de enlaces de navegación */
+.btn-nav {
+    background-color: #222;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 8px 16px;
+    margin: 5px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-nav:hover {
+    background-color: #ff6f61;
+    color: #fff;
+    border-color: #ff6f61;
+    transform: scale(1.05);
+}
+
+/* Estilo de los enlaces del menú desplegable */
+.dropdown-menu {
+    background-color: #333;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-menu .btn-light {
+    color: #333;
+    background-color: #fff;
+    font-weight: 600;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.dropdown-menu .btn-light:hover {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+.dropdown-menu .dropdown-divider {
+    border-top: 1px solid #444;
+}
+
+/* Botón de cerrar sesión */
+#btn_cerrar {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+#btn_cerrar:hover {
+    background-color: #c9302c;
+}
+
+/* Espacio entre los botones en el menú desplegable */
+.dropdown-menu .btn-light,
+#btn_cerrar {
+    margin-bottom: 10px; /* Espacio entre los botones */
+}
+
+/* Efecto de enfoque en los botones */
+.btn-nav:focus,
+.btn-light:focus,
+#btn_cerrar:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(255, 111, 97, 0.8);
+}

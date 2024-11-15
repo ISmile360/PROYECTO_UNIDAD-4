@@ -1,0 +1,261 @@
+/* General body styling */
+body {
+    background: #1f1f1f;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Main container */
+.container {
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+/* Barra de navegación */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar .navbar-brand {
+    color: #ff6f61;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 1rem;
+    padding: 8px 15px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+/* Product card styling */
+.bg-card {
+    background: linear-gradient(135deg, #222, #444);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 10px;
+    border: 2px solid #333;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+}
+
+/* Title styling */
+h2 {
+    font-size: 36px;
+    color: #ff6f61;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px rgba(255, 111, 97, 0.7);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    background-color: #333;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ff6f61;
+    color: white;
+}
+
+td {
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #444;
+}
+
+tr:nth-child(odd) {
+    background-color: #555;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 8px 15px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+
+.btn-primary {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+.btn-danger {
+    background-color: #555;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+.btn-primary:hover, .btn-danger:hover {
+    background-color: #ff4d3d;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+/* Modal */
+.modal-content {
+    background: #333;
+    border-radius: 15px;
+}
+
+.modal-header {
+    background-color: #ff6f61;
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.modal-footer {
+    border-top: 1px solid #ddd;
+    padding: 15px;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Form styles */
+.form-floating {
+    margin-bottom: 20px;
+}
+
+.form-floating input {
+    background-color: #444;
+    border: 2px solid #555;
+    color: #fff;
+    border-radius: 10px;
+    padding: 18px;
+    font-size: 1.1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+
+.form-floating input:focus {
+    background-color: #555;
+    border-color: #ff6f61;
+    box-shadow: 0 0 8px rgba(255, 111, 97, 0.8);
+    outline: none;
+}
+
+.form-floating label {
+    color: #bbb;
+    font-size: 1rem;
+}
+
+/* Placeholder style */
+.form-floating .form-control::placeholder {
+    color: #aaa;
+}
+
+/* Icon styling */
+.form-floating i {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    color: #bbb;
+    font-size: 1.2rem;
+}
+
+/* Button icon spacing */
+.btn-primary i, .btn-danger i {
+    margin-right: 10px;
+}
+
+/* Hover effects for container */
+.fondo:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Smooth animation for inputs */
+.form-floating input {
+    transition: all 0.3s ease-in-out;
+}
+
+.form-floating input:focus {
+    transform: scale(1.05);
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar .navbar-brand {
+    color: #ff6f61;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 1rem;
+    padding: 8px 15px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #ff6f61;
+    color: #fff;
+}
+
+/* Button styles for small buttons */
+.btn-sm {
+    font-size: 0.8rem;
+    padding: 8px 15px;
+    border-radius: 15px;
+    width: auto;
+}
+
+#btn_cerrar {
+    background-color: #dc3545;
+}
+
+#btn_cerrar:hover {
+    background-color: #c82333;
+}

@@ -1,0 +1,101 @@
+/* Fondo general de la página */
+body {
+    background-color: #1f1f1f; /* Fondo oscuro */
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del contenedor principal */
+.bg-card {
+    background-color: #333; /* Fondo oscuro de tarjeta */
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    padding: 20px;
+    color: #fff; /* Texto blanco */
+    border: 1px solid #444; /* Borde oscuro */
+}
+
+h2 {
+    font-size: 36px;
+    color: #ff6f61;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px rgba(255, 111, 97, 0.7);
+}
+
+/* Encabezado de las tablas */
+.table th {
+    background-color: #ff6f61; /* Fondo rosado intenso */
+    color: #fff; /* Texto blanco */
+}
+
+/* Estilo de botones */
+.btn-primary {
+    background-color: #ff6f61; /* Rosa pastel intenso */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #ff4d3d; /* Rosa más oscuro */
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    background-color: #d9534f; /* Rojo intenso */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c; /* Rojo más oscuro */
+    transform: scale(1.05);
+}
+
+.btn-secondary {
+    background-color: #555; /* Gris oscuro */
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #666; /* Gris un poco más claro */
+}
+
+/* Estilo de los modales */
+.modal-content {
+    background-color: #2b2b2b; /* Fondo del modal oscuro */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Sombra del modal */
+    color: #fff; /* Texto blanco */
+}
+
+.modal-header, .modal-footer {
+    border: none;
+}
+
+/* Estilo de los campos de formulario */
+.form-floating .form-control {
+    border: 1px solid #ff6f61; /* Borde rosado */
+    border-radius: 10px;
+    background-color: #444; /* Fondo oscuro del campo */
+    color: #fff; /* Texto blanco */
+}
+
+.form-floating label {
+    color: #d47a94; /* Color de texto en etiquetas */
+    font-weight: 500;
+}
